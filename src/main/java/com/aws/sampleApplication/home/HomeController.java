@@ -10,4 +10,9 @@ public class HomeController {
     public String helloWorld(){
         return "Welcome to AWS demo";
     }
+
+    @GetMapping("/checkCiCd")
+    public String checkCICD(){
+        return "CI/CD is working fine";
+    }
 }
